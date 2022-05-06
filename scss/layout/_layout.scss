@@ -1,0 +1,13 @@
+@use '../base/variables' as *;
+
+body {
+    background: $bg-main;
+    font-size: 1rem;
+    font-family: $ff-primary;
+    padding: rem(70px) 0;
+}
+
+h2,
+h3 {
+    letter-spacing: 0.8px;
+}

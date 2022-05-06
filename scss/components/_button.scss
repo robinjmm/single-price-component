@@ -1,0 +1,23 @@
+@use '../base/variables' as *;
+
+.button {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 1em 0;
+    font-size: 1rem;
+    border-radius: em(5px, 16px);
+    background-color: $bg-button;
+    color: $text-white;
+    font-weight: $fw-bold;
+    letter-spacing: 0.8px;
+    margin-top: 2em;
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease-out, box-shadow 0.3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0);
+        background-color: darken($bg-button, 5%);
+    }
+}

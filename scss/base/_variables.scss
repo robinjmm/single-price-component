@@ -1,0 +1,32 @@
+//Colors
+$text-color: hsl(218, 22%, 67%);
+$text-accent-yellow: hsl(71, 73%, 54%);
+$text-accent-cyan: hsl(179, 62%, 43%);
+$text-accent-faint: hsl(204, 43%, 93%);
+$text-white: hsl(0, 0%, 98%);
+
+$bg-main: hsl(204, 43%, 93%);
+$bg-card: hsl(179, 62%, 43%);
+$bg-card-light: hsl(179, 47%, 52%);
+$bg-card-white: hsl(0, 0%, 98%);
+$bg-button: hsl(71, 73%, 54%);
+
+// Fonts
+$base-font-size: 16px;
+$ff-primary: 'Karla', sans-serif;
+
+$fw-normal: 400;
+$fw-bold: 700;
+
+// Functions
+@function rem($value) {
+    $remValue: calc(($value / $base-font-size) * 1rem);
+    @return $remValue;
+}
+
+// $value is the desired size
+// $base is font-size of the parent
+@function em($value, $base) {
+    $emValue: calc(($value / $base) * 1em);
+    @return $emValue;
+}
