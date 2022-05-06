@@ -1,0 +1,28 @@
+@use '../base/variables' as *;
+
+@media (min-width: 1024px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 800px;
+
+        &__header {
+            padding: em(50px, 16px);
+        }
+
+        &__body {
+            display: flex;
+
+        }
+
+        &__plan,
+        &__info {
+            width: 100%;
+            padding: em(50px, 16px);
+        }
+    }
+}
