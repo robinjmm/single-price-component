@@ -1,9 +1,9 @@
 # Single Price Card Component
-![](./images/solution-screenshot.png)
+![](assets/images/solution-screenshot.png)
 
 ## Links
 - [Challenge Link](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
-- [Site Preview](https://robinjmm-single-price-card.netlify.app/)
+- [Site Preview](https://robinjmm-price.vercel.app/)
 
 ## About
 This is my solution for the challenge of building a pricing card component from [Frontendmentor.io](https://frontendmentor.io).
@@ -11,24 +11,22 @@ This is my solution for the challenge of building a pricing card component from 
 The goal of the challenge is to re-create the design of a pricing card component. The solution should be as close to the design as possible.
 The solution should also be responsive to different device viewports. On small screens, the elements of the component simply stack on top of each other. When viewed on larger screens, the body of the card turns into a two-column layout of equal widths.
 
-
-**Any feedback on how to improve my solution would be greatly appreciated** 😊
-
 ## User Stories
 The user should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - See a hover state on desktop for the Sign Up call-to-action
 
 ## Built With
-- Semantic HTML5
+- HTML5
 - CSS3
 - Flexbox
 - Sass
+- PostCSS
 
 ## Usage
 You can download the project files by clicking on the green **Code** button, then select **Download Zip**.
 
-Once you finish extracting, move into the project folder, open the terminal, and type the following code:
+Once you finish extracting, open the terminal, move into the project folder, and type the following code:
 
 ```
 npm install
