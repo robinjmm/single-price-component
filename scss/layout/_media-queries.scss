@@ -1,12 +1,6 @@
 @use '../base/variables' as *;
 
 @media (min-width: 1024px) {
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .card {
         max-width: 800px;
 
