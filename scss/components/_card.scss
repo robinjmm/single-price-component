@@ -1,16 +1,16 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 .card {
     width: 85%;
     max-width: 350px;
     margin: 0 auto;
-    border-radius: em(5px, 16px);
+    border-radius: 0.3125em;
     box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 
     &__header {
         background-color: $bg-card-white;
-        padding: em(30px, 16px);
+        padding: 1.875em;
         color: $text-color;
         line-height: 1.7;
     }
@@ -28,7 +28,7 @@
     &__text-yellow {
         color: $text-accent-yellow;
         font-weight: $fw-bold;
-        margin-bottom: em(20px, 16px);
+        margin-bottom: 1.25em;
     }
 
     &__body {
@@ -37,7 +37,7 @@
 
     &__plan {
         background-color: $bg-card;
-        padding: em(30px, 16px);
+        padding: 1.87em;
     }
 
     &__price {
@@ -56,7 +56,7 @@
     }
 
     &__info {
-        padding: em(30px, 16px);
+        padding: 1.875em;
         background-color: $bg-card-light;
     }
 }

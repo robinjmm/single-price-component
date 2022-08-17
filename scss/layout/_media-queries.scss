@@ -1,11 +1,11 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 @media (min-width: 1024px) {
     .card {
         max-width: 800px;
 
         &__header {
-            padding: em(50px, 16px);
+            padding: 3.125em;
         }
 
         &__body {
@@ -16,7 +16,7 @@
         &__plan,
         &__info {
             width: 100%;
-            padding: em(50px, 16px);
+            padding: 3.125em;
         }
     }
 }

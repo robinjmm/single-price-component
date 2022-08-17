@@ -1,4 +1,4 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 .button {
     display: block;
@@ -6,7 +6,7 @@
     border: none;
     padding: 1em 0;
     font-size: 1rem;
-    border-radius: em(5px, 16px);
+    border-radius: 0.3125em;
     background-color: $bg-button;
     color: $text-white;
     font-weight: $fw-bold;

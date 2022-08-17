@@ -12,7 +12,6 @@ $bg-card-white: hsl(0, 0%, 98%);
 $bg-button: hsl(71, 73%, 54%);
 
 // Fonts
-$base-font-size: 16px;
 $ff-primary: 'Karla', sans-serif;
 
 $fw-normal: 400;
@@ -20,13 +19,6 @@ $fw-bold: 700;
 
 // Functions
 @function rem($value) {
-    $remValue: calc(($value / $base-font-size) * 1rem);
+    $remValue: calc(($value / 16px) * 1rem);
     @return $remValue;
-}
-
-// $value is the desired size
-// $base is font-size of the parent
-@function em($value, $base) {
-    $emValue: calc(($value / $base) * 1em);
-    @return $emValue;
 }
